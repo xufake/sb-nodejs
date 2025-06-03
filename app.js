@@ -50,10 +50,10 @@ function ask(question) {
     return new Promise(resolve => rl.question(question, ans => { rl.close(); resolve(ans.trim()); }));
 }
 async function main() {
-    const UUID = await getVariableValue('UUID', '629148ce-6ee1-4db9-a0af-4b06b740f91f');
+    const UUID = await getVariableValue('UUID', '54b8c87c-5768-41e6-9eb0-e289e2c752f3');
     console.log('你的UUID:', UUID);
 
-    const PORT = await getVariableValue('PORT', '8080');
+    const PORT = await getVariableValue('PORT', '10090');
     console.log('你的端口:', PORT);
 
     const DOMAIN = await getVariableValue('DOMAIN', 'cf-tast-choreo.bsapp.ggff.net');
