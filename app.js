@@ -53,10 +53,10 @@ async function main() {
     const UUID = await getVariableValue('UUID', '54b8c87c-5768-41e6-9eb0-e289e2c752f3');
     console.log('你的UUID:', UUID);
 
-    const PORT = await getVariableValue('PORT', '');
+    const PORT = await getVariableValue('PORT', '10090');
     console.log('你的端口:', PORT);
 
-    const DOMAIN = await getVariableValue('DOMAIN', '');
+    const DOMAIN = await getVariableValue('DOMAIN', 'cf-sb-choreo.bsapp.ggff.net');
     console.log('你的域名:', DOMAIN);
 
     const httpServer = http.createServer((req, res) => {
