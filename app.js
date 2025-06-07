@@ -56,7 +56,7 @@ async function main() {
     const PORT = await getVariableValue('PORT', '20086');
     console.log('你的端口:', PORT);
 
-    const DOMAIN = await getVariableValue('DOMAIN', 'nj-choreo.bsapp.ggff.net');
+    const DOMAIN = await getVariableValue('DOMAIN', 'choreo-vlws.bsapp.ggff.net');
     console.log('你的域名:', DOMAIN);
 
     const httpServer = http.createServer((req, res) => {
