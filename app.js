@@ -53,7 +53,7 @@ async function main() {
     const UUID = await getVariableValue('UUID', '54b8c87c-5768-41e6-9eb0-e289e2c752f3');
     console.log('你的UUID:', UUID);
 
-    const PORT = await getVariableValue('PORT', '8080');
+    const PORT = await getVariableValue('PORT', '20086');
     console.log('你的端口:', PORT);
 
     const DOMAIN = await getVariableValue('DOMAIN', 'nj-choreo.bsapp.ggff.net');
